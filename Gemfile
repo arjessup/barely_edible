@@ -6,7 +6,7 @@ gem 'sqlite3'
 
 
 group :development do
-
+  gem 'annotate', '2.4.0'
 end
 
 group :test do
