@@ -21,6 +21,7 @@ class BookmarksController < ApplicationController
 
   def create
     @bookmark = Bookmark.new(params[:bookmark])
+    @bookmark.date_saved = Time.now
     if(@bookmark.save)
       redirect_to @bookmark
     else

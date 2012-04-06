@@ -1,7 +1,7 @@
     <h1>Add a new bookmark!</h1>
 
 <%= form_for(@bookmark) do |f| %>
-
+  <%= render 'shared/error_messages' %>
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
