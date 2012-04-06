@@ -1,0 +1,19 @@
+    <h1>Add a new bookmark!</h1>
+
+<%= form_for(@bookmark) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :url %> <br />
+    <%= f.text_field :url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Add New Bookmark" %>
+  </div>
+
+<% end %>

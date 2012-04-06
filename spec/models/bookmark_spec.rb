@@ -15,7 +15,7 @@ require 'spec_helper'
 describe Bookmark do
 
   before(:each) do
-    @attr = { :name => "Example Link Name", :url => "http://www.example.com" }
+    @attr = { :name => "Example Link Name", :url => "http://www.example.com", :date_saved => Time.now }
   end
   
   it "should create a new instance given valid attributes" do

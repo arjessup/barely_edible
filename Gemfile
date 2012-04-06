@@ -17,6 +17,7 @@ group :test do
   gem 'autotest-growl', '0.2.16'
   gem 'factory_girl_rails', '1.0'
   gem 'web-app-theme', '>=0.6.2'
+  gem 'factory_girl_rails', '1.0'
 end
 
 group :development, :test do
